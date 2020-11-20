@@ -1,4 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+img{
+  padding: 40px;
+  width: 50%;
+  height: 200px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #76250F;
+  font-family: 'Arvo', serif;
+}
+header{
+  display: flex;
+  background-color: #A6764D;
+  height: 15vh;
+  width: 100%;
+  box-shadow: 0px 4px 3px #A6764D;
+  justify-content: center;
+}
+h1{
+  position: absolute;
+  top: -30px;
+  text-align: center;
+  font-size: 70px;
+}
+
+#Rent{
+  padding: 10px;
+  font-size: 45px;
+  font-family: 'Arvo', serif;
+  text-align: center;
+}
+#Limos{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#Contact{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 @media(max-width: 950px) {
   .logo{
     z-index: 1000;
@@ -18,17 +61,20 @@
     position: relative;
     color: #E8C486;
     text-shadow: 3px 3px 2px #3F130B;
-    top: -90px;
+    top: -240px;
     z-index: 1000;
   }
   #mount{
     position: relative;
-    width: 300px;
-    top: 100px;
+    width: 200px;
+    height: 100px;
+    top: 80px;
   }
   #lim{
     position: relative;
-    top: 16px;
+    top: -100px;
+    width: 150px;
+    height: 100px;
     z-index: 500;
   }
 }
@@ -51,17 +97,20 @@
     position: relative;
     color: #E8C486;
     text-shadow: 3px 3px 2px #3F130B;
-    top: -90px;
+    top: -310px;
     z-index: 1000;
   }
   #mount{
     position: relative;
     width: 300px;
-    top: 100px;
+    height: 150px;
+    top: 50px;
   }
   #lim{
     position: relative;
-    top: 10px;
+    width: 250px;
+    height: 150px;
+    top: -170px;
     z-index: 500;
   }
 }
@@ -84,20 +133,22 @@
     position: relative;
     color: #E8C486;
     text-shadow: 3px 3px 2px #3F130B;
-    top: -160px;
+    top: -30.
+    0px;
     z-index: 1000;
   }
   #mount{
     position: relative;
     width: 400px;
-    top: 100px;
+    top: 50px;
   }
   #lim{
     position: relative;
-    top: -30px;
+    top: -170px;
     z-index: 500;
   }
 }
+<<<<<<< HEAD
 body{
   margin: 0px;
   padding: 0px;
@@ -141,6 +192,8 @@ img{
   top: 10px;
   right: 10px;
 }
+=======
+>>>>>>> 86fb9b9af0457aa878b6d4a4b16be78f9f8556b6
 
 a{
   z-index: 1000;
@@ -150,6 +203,7 @@ a{
   font-family: 'Arvo', serif;
   color: black;
   left: 10px;
+  top: 20px;
 }
 a img{
   width:50px;
@@ -170,4 +224,8 @@ a h3{
   align-items: center;
   justify-content: space-around;
   top: 190px;
+}
+.addUp div{
+  margin-bottom: 30px;
+  font-weight: bold
 }

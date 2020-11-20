@@ -48,7 +48,7 @@
         <label for="timeStart">Renting from</label>
         <input type="time" name="timeStart" value="timeStart">
         <label for="timeEnd">to</label>
-        <small>Rental hours are from 8am to 3am.</small>
+        <small>(Rental hours are from 8am to 3am.)</small>
       </div>
       <div class="user">
         <label for="firstName">Name:</label>
@@ -57,6 +57,24 @@
         <label for="number">Phone #:</label>
         <input type="tel" name="number" value="(555-555-5555)">
       </div>
+      <div class="card">
+        <label for="cardNum">Card Number:</label>
+        <input type="text" name="cardNum" value="">
+        <label for="cardName">Name on Card:</label>
+        <input type="text" name="cardName" value="Name">
+      </div>
+      <div class="card">
+        <label for="cvv">3-digit CVV:</label>
+        <input type="text" name="cvv" value="">
+        <label for="exDate">4-digit Expiration Date:</label>
+        <input type="text" name="exDate" value="00/00">
+      </div>
+      <div class="insure">
+        <input type="checkbox" name="insurance" value="yes">
+        <label for="insurance">I understand and agree to the terms of service and insurance.</label>
+      </div>
+      <button type="button" name="submit">Submit Form for Approval</button>
+      <small>If going to pay with cash, request a certain chauffer, or have any questions, please call (555-555-5555).</small>
     </section>
   </body>
 </html>
