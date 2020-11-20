@@ -17,6 +17,7 @@ header{
   width: 100%;
   box-shadow: 0px 4px 3px #A6764D;
   justify-content: center;
+  pointer-events: none;
 }
 h1{
   position: absolute;
@@ -148,7 +149,7 @@ h1{
     z-index: 500;
   }
 }
-<<<<<<< HEAD
+
 body{
   margin: 0px;
   padding: 0px;
@@ -192,8 +193,6 @@ img{
   top: 10px;
   right: 10px;
 }
-=======
->>>>>>> 86fb9b9af0457aa878b6d4a4b16be78f9f8556b6
 
 a{
   z-index: 1000;
