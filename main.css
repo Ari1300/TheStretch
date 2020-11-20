@@ -106,7 +106,6 @@ body{
 }
 header{
   display: flex;
-  position: absolute;
   background-color: #A6764D;
   height: 15vh;
   width: 100%;
@@ -129,6 +128,7 @@ a{
   font-family: 'Arvo', serif;
   color: black;
   left: 10px;
+  top: 0px;
 }
 a img{
   width:50px;
