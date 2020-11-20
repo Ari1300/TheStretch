@@ -7,9 +7,13 @@ body{
   font-family: 'Arvo', serif;
 }
 header{
+  display: flex;
+  position: absolute;
   background-color: #A6764D;
   height: 15vh;
+  width: 100%;
   box-shadow: 0px 4px 3px #A6764D;
+  justify-content: center;
 }
 img{
   width: 50%;
@@ -20,10 +24,13 @@ img{
 }
 /*font-family: 'Arvo', serif;*/
 a{
+  z-index: 1000;
+  position: absolute;
   width: 50px;
   height: 50px;
   font-family: 'Arvo', serif;
   color: black;
+  left: 10px;
 }
 a img{
   width:50px;
@@ -43,19 +50,26 @@ a h3{
   font-size: 40px;
   font-family: 'Arvo', serif;
   width: 40%;
+  height: 300px;
   text-align: center;
-}
-.logo h1{
-  position: absolute;
-  color: #E8C486;
-  text-shadow: 3px 3px 2px #3F130B;
-}
-.logo:nth-child(1){
-  position: absolute;
-  width: 100%;
   padding: 0px;
   margin: 0px;
+  border-radius: 60%;
+  top: -100px;
 }
-.logo:nth-child(2){
-  position: absolute;
+.logo h1{
+  position: relative;
+  color: #E8C486;
+  text-shadow: 3px 3px 2px #3F130B;
+  top: -90px;
+}
+#mount{
+  position: relative;
+  width: 300px;
+  top: 100px;
+}
+#lim{
+  position: relative;
+  top: 16px;
+  z-index: 500;
 }
