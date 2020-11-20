@@ -120,6 +120,7 @@ header{
   width: 100%;
   box-shadow: 0px 4px 3px #A6764D;
   justify-content: center;
+  pointer-events: none;
 }
 h1{
   position: absolute;
