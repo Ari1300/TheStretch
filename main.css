@@ -1,47 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-img{
-  padding: 40px;
-  width: 50%;
-  height: 200px;
-}
-body{
-  margin: 0px;
-  padding: 0px;
-  background-color: #76250F;
-  font-family: 'Arvo', serif;
-}
-header{
-  display: flex;
-  background-color: #A6764D;
-  height: 15vh;
-  width: 100%;
-  box-shadow: 0px 4px 3px #A6764D;
-  justify-content: center;
-  pointer-events: none;
-}
-h1{
-  position: absolute;
-  top: -30px;
-  text-align: center;
-  font-size: 70px;
-}
-
-#Rent{
-  padding: 10px;
-  font-size: 45px;
-  font-family: 'Arvo', serif;
-  text-align: center;
-}
-#Limos{
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-#Contact{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
 
 @media(max-width: 950px) {
   .logo{
@@ -175,12 +132,19 @@ img{
   width: 50%;
   height: 200px;
 }
+footer{
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
 #Rent{
-  position: absolute;
+  position: relative;
+  bottom: 0px;
+  left: 850px;
+  color: black;
   padding: 10px;
   font-size: 45px;
   font-family: 'Arvo', serif;
-  left: 850px;
   text-align: center;
 }
 #Limos{
