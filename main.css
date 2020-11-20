@@ -1,5 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-
+@media(max-width: 950px) {
+  .logo{
+    z-index: 1000;
+    position: absolute;
+    background-color: #6D1910;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 60%;
+    top: -100px;
+  }
+  .logo h1{
+    position: relative;
+    color: #E8C486;
+    text-shadow: 3px 3px 2px #3F130B;
+    top: -90px;
+    z-index: 1000;
+  }
+  #mount{
+    position: relative;
+    width: 300px;
+    top: 100px;
+  }
+  #lim{
+    position: relative;
+    top: 16px;
+    z-index: 500;
+  }
+}
+@media(min-width: 950px) {
+  .logo{
+    z-index: 1000;
+    position: absolute;
+    background-color: #6D1910;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 60%;
+    top: -100px;
+  }
+  .logo h1{
+    position: relative;
+    color: #E8C486;
+    text-shadow: 3px 3px 2px #3F130B;
+    top: -90px;
+    z-index: 1000;
+  }
+  #mount{
+    position: relative;
+    width: 300px;
+    top: 100px;
+  }
+  #lim{
+    position: relative;
+    top: 10px;
+    z-index: 500;
+  }
+}
+@media(min-width: 1450px) {
+  .logo{
+    z-index: 1000;
+    position: absolute;
+    background-color: #6D1910;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 60%;
+    top: -100px;
+  }
+  .logo h1{
+    position: relative;
+    color: #E8C486;
+    text-shadow: 3px 3px 2px #3F130B;
+    top: -160px;
+    z-index: 1000;
+  }
+  #mount{
+    position: relative;
+    width: 400px;
+    top: 100px;
+  }
+  #lim{
+    position: relative;
+    top: -30px;
+    z-index: 500;
+  }
+}
 body{
   margin: 0px;
   padding: 0px;
@@ -43,33 +141,12 @@ a h3{
   padding: 0px;
   margin: 0px;
 }
-.logo{
-  z-index: 1000;
+.addUp{
   position: absolute;
-  background-color: #6D1910;
-  font-size: 40px;
-  font-family: 'Arvo', serif;
-  width: 40%;
-  height: 300px;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-  border-radius: 60%;
-  top: -100px;
-}
-.logo h1{
-  position: relative;
-  color: #E8C486;
-  text-shadow: 3px 3px 2px #3F130B;
-  top: -90px;
-}
-#mount{
-  position: relative;
-  width: 300px;
-  top: 100px;
-}
-#lim{
-  position: relative;
-  top: 16px;
-  z-index: 500;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  top: 190px;
 }
