@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-<<<<<<< HEAD
+
 body{
+  margin: 0px;
+  padding: 0px;
   background-color: #76250F;
   font-family: 'Arvo', serif;
 }
 header{
   background-color: #A6764D;
+  height: 15vh;
+  box-shadow: 0px 4px 3px #A6764D;
 }
 img{
   width: 50%;
@@ -13,8 +17,7 @@ img{
 #Limos{
   display: grid;
   grid-template-columns: 1fr 1fr;
-=======
-
+}
 /*font-family: 'Arvo', serif;*/
 a{
   width: 50px;
@@ -34,12 +37,25 @@ a h3{
   margin: 0px;
 }
 .logo{
+  z-index: 1000;
+  position: absolute;
+  background-color: #6D1910;
   font-size: 40px;
   font-family: 'Arvo', serif;
+  width: 40%;
+  text-align: center;
 }
 .logo h1{
+  position: absolute;
   color: #E8C486;
   text-shadow: 3px 3px 2px #3F130B;
-
->>>>>>> b27a1a4433b84fd96e254b577bf8790cfc5fd3c7
+}
+.logo:nth-child(1){
+  position: absolute;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.logo:nth-child(2){
+  position: absolute;
 }
