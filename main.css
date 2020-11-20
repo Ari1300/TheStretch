@@ -124,9 +124,11 @@ img{
   height: 200px;
 }
 #Rent{
+  position: absolute;
   padding: 10px;
   font-size: 45px;
   font-family: 'Arvo', serif;
+  left: 850px;
   text-align: center;
 }
 #Limos{
